@@ -23,7 +23,7 @@ int main()
 	float a, b, r;
 	scanf("%f %f", &a, &b);
 	r = 1 / (1 / a + 1 / b);
-	printf("Äª²ý½ð¼ÆËãµÄµç×èÖµÊÇ%f\n", r);
+	printf("æˆ‘è®¡ç®—çš„ç”µé˜»å€¼æ˜¯%f\n", r);
 }
 
 
@@ -35,7 +35,7 @@ int main()
 	scanf("%f %f", &Xa, &Ya);
 	scanf("%f %f", &Xb, &Yb);
 	m = sqrt((Xa - Xb) * (Xa - Xb) + (Ya - Yb) * (Ya - Yb));
-	printf("Äª²ý½ð¼ÆËãµÄÏß¶Î³¤¶ÈÎª%.3f", m);
+	printf("æˆ‘è®¡ç®—çš„çº¿æ®µé•¿åº¦ä¸º%.3f", m);
 }
 
 
@@ -46,5 +46,5 @@ int main()
 	scanf("%lf %lf", &a, &b);
 	k = a / b;
 	r = a - k * b;
-	printf("Äª²ý½ðµÄ¼ÆËã½á¹ûÊÇ%g", r);
+	printf("æˆ‘çš„è®¡ç®—ç»“æžœæ˜¯%g", r);
 }
